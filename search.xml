@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>新闻中心Markdown处理程序使用教程</title>
+      <link href="/xdkd-news/2021/06/09/mdprocessor/"/>
+      <url>/xdkd-news/2021/06/09/mdprocessor/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>这是一个方便处理新闻稿件的发送信息的处理程序🙋‍♀️，我们技术部把它称为新鼎科德新闻中心Markdown处理器！</p></blockquote><h2 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h2><hr><ul><li>简单易用，易于上手😃</li><li>方便Markdown文章的导入与信息编辑😋</li><li>方便<a href="https://hexo.io/">HEXO</a>稿件信息标注😁</li><li>免安装，直接使用😛</li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><hr><p><strong>两个版本区别为一个只有一个可执行程序兼容性不高，一个一堆文件但是兼容性较高。</strong></p><p>精简版下载：<a href="https://gitee.com/Jimmy_Liang/XDKD-mdprocessor/attach_files/732467/download/mdProcessor_Windows_x64_single.zip">mdProcessor_Windows_x64_single.zip</a></p><p>完整版下载：<a href="https://gitee.com/Jimmy_Liang/XDKD-mdprocessor/attach_files/732468/download/mdProcessor_Windows_x64_full.zip">mdProcessor_Windows_x64_full.zip</a></p><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><hr><p>首先确保你的操作系统为<strong>Windows 64位</strong>操作系统，下载程序后双击运行图标即可打开程序，程序界面如图1所示。</p><img src="/xdkd-news/2021/06/09/mdprocessor/1554981.jpg" class="" title="图1 程序界面"><p>在没有导入文件时，软件的输入与处理按钮均处于不可操作状态。通过<code>浏览</code>选中<strong>Markdown文稿所在的目录</strong>，目录结构必须满足如图2所示的结构。若Markdown文稿中已经包含了相关的配置信息，则程序将会自动加载这些信息。</p><img src="/xdkd-news/2021/06/09/mdprocessor/20210609181752.jpg" class="" title="图2 目录文件结构"><p>填写信息中，以下选项为必填项：</p><ul><li><strong>新闻标题</strong>：用于网页显示标题之用；</li><li><strong>发布者</strong>：用于记录发布者信息；默认发布者为<strong>新闻中心</strong>、<strong>技术部</strong>、<strong>竞赛部</strong>以及<strong>发展部</strong>，若非特殊情况尽量选择默认发布者；</li><li><strong>文章封面图</strong>：用于文章封面的显示，选中本地图片文件后，程序将自动进行打包；</li><li><strong>分类设置</strong>：用于消息的分类；默认分类为<strong>全体公告</strong>、<strong>新鼎科德公告</strong>、<strong>水智蓝公告</strong>、<strong>恩科公告</strong>、<strong>新闻动态</strong>与<strong>日常发布</strong>，除特殊情况下尽量选择默认分类进行发布；</li><li><strong>标签</strong>：用于消息的标注，在填写信息时使用<strong>单个空格（Space）</strong>进行区分；</li><li><strong>新闻摘要</strong>：用于概括新闻内容。</li></ul><p>以下选项为选填项：</p><ul><li><strong>是否置顶新闻</strong>：非常重要信息例如全体公告等消息应选择置顶新闻进行发布，其他消息由管理人员内部讨论决定；</li><li><strong>是否加入首页轮播</strong>：重要信息需要加入首页轮播，有管理人员内部讨论决定；<strong>轮播消息不能大于6个</strong>！</li><li><strong>轮播图设置</strong>：在选中<code>加入首页轮播图</code>检查框后才可进行操作，用于轮播图像显示，选中本地图片文件后，程序将自动进行打包；</li><li><strong>加密密码</strong>：在信息只能部分相关人员可见的情况下，应添加加密密码；加密密码采用<code>SHA256</code>进行单向加密，因此<strong>不可找回</strong>，请谨慎设置；</li><li><strong>开启TOC</strong>：通常不选择该选项；</li><li><strong>开启数学公式</strong>：若文稿中包含数学公式，则需要选中此检查框，公式格式应为<strong>Mathjax</strong>，可用<a href="https://www.mathtype.cn/">MathType</a>等软件进行设置。</li></ul><p>在设置好有关信息后，点击<code>处理MarkDown</code>按钮进行处理，最终处理结果如图3所示。</p><img src="/xdkd-news/2021/06/09/mdprocessor/20210609182236.jpg" class="" title="图3 处理结果"><p>处理完成后仅需要向服务器递交文件夹“mdprocessor_use”与文稿“mdprocessor_use.md”，文件<code>.save</code>用于保存之前未处理过的Markdown文稿。</p><h2 id="开源与许可"><a href="#开源与许可" class="headerlink" title="开源与许可"></a>开源与许可</h2><hr><p>本程序开源采用<a href="https://gitee.com/Jimmy_Liang/XDKD-mdprocessor/blob/master/LICENSE">GPL-2.0</a>开源许可协议。</p><p>开源地址为：<a href="https://gitee.com/Jimmy_Liang/XDKD-mdprocessor">https://gitee.com/Jimmy_Liang/XDKD-mdprocessor</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 新鼎科德公告 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 信息发布 </tag>
+            
+            <tag> 运维教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>新鼎科德集团新闻中心现已开通！</title>
+      <link href="/xdkd-news/2021/06/07/news1/"/>
+      <url>/xdkd-news/2021/06/07/news1/</url>
+      
+        <content type="html"><![CDATA[<p>新鼎科德集团新闻中心于<strong>2021年6月7日开通</strong>，本网站将发布集团的相关动态与事件，进行及时信息的发布，调节公众关系等相关职能。</p><img src="/xdkd-news/2021/06/07/news1/newscenter.jpg" class="" title="网站预览"><p>网站现在正处于<strong>试运行状态</strong>，相关功能正在完善中，若网站在运行过程中产生相关BUG，敬请谅解！如果您是位热心的朋友并且有空余的时间，有任何网站使用上的不便请发送到邮箱<a href="mailto:846208455@qq.com">846208455@qq.com</a>进行网站的反馈！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 全体公告 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 关于站点 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>新鼎科德“天印杯”喜获佳绩</title>
+      <link href="/xdkd-news/2020/11/29/2020xdkdtyb/"/>
+      <url>/xdkd-news/2020/11/29/2020xdkdtyb/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>2020/2021学年<strong>“天印杯”大学生创业计划大赛</strong></p><p>​                                        ——<strong>新鼎科德团队实现“大满贯”！</strong></p></blockquote><h2 id="“天印杯”大赛"><a href="#“天印杯”大赛" class="headerlink" title="“天印杯”大赛"></a>“天印杯”大赛</h2><hr><p>为进一步深化我校创新创业教育，激发学生的创新创业热情，营造“大众创业，万众创新”的校园文化氛围，培养和提升大学生的创造精神、创新思维和创业能力，选拔一批优秀创业项目入驻校大学生创业基地，扎实推进我校大学生创业工作，同时为选拔一批优秀项目参加江苏省科协青年会员创新创业大赛，经研究，决定举办南京工程学院2020/2021学年”天印杯”大学生创业计划大赛暨江苏省机械工程学会第三届青年大学生创新创业大赛（南京工程学院站）。</p><h2 id="新鼎科德团队“大满贯”概览"><a href="#新鼎科德团队“大满贯”概览" class="headerlink" title="新鼎科德团队“大满贯”概览"></a>新鼎科德团队“大满贯”概览</h2><hr><h3 id="一等奖：《水智蓝-智慧河长仿生鱼水下暗管探查开拓者》"><a href="#一等奖：《水智蓝-智慧河长仿生鱼水下暗管探查开拓者》" class="headerlink" title="一等奖：《水智蓝-智慧河长仿生鱼水下暗管探查开拓者》"></a>一等奖：《水智蓝-智慧河长仿生鱼水下暗管探查开拓者》</h3><p>负责人：姚新科</p><img src="/xdkd-news/2020/11/29/2020xdkdtyb/230329f51d65cc1aec8c68c2d4345cf7.jpg" class=""><img src="/xdkd-news/2020/11/29/2020xdkdtyb/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210610175431.jpg" class=""><img src="/xdkd-news/2020/11/29/2020xdkdtyb/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210610175448.jpg" class=""><h3 id="二等奖：《逸泊——5G数据链智慧生态农场》"><a href="#二等奖：《逸泊——5G数据链智慧生态农场》" class="headerlink" title="二等奖：《逸泊——5G数据链智慧生态农场》"></a>二等奖：《逸泊——5G数据链智慧生态农场》</h3><p>负责人：李纪言</p><img src="/xdkd-news/2020/11/29/2020xdkdtyb/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210610175634.jpg" class=""><img src="/xdkd-news/2020/11/29/2020xdkdtyb/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210610175654.jpg" class=""><img src="/xdkd-news/2020/11/29/2020xdkdtyb/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210610183148.jpg" class=""><h3 id="二等奖：《诺克—模块化全地形轮履转换智能应急支援车》"><a href="#二等奖：《诺克—模块化全地形轮履转换智能应急支援车》" class="headerlink" title="二等奖：《诺克—模块化全地形轮履转换智能应急支援车》"></a>二等奖：《诺克—模块化全地形轮履转换智能应急支援车》</h3><p>负责人：孙奕涵</p><img src="/xdkd-news/2020/11/29/2020xdkdtyb/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210610183748.jpg" class=""><img src="/xdkd-news/2020/11/29/2020xdkdtyb/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210610183805.jpg" class=""><img src="/xdkd-news/2020/11/29/2020xdkdtyb/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210610183822.jpg" class=""><h3 id="三等奖：《“互联网-”工业物联网智能家居一体化定制师》"><a href="#三等奖：《“互联网-”工业物联网智能家居一体化定制师》" class="headerlink" title="三等奖：《“互联网+”工业物联网智能家居一体化定制师》"></a>三等奖：《“互联网+”工业物联网智能家居一体化定制师》</h3><p>负责人：梁哲铭</p><img src="/xdkd-news/2020/11/29/2020xdkdtyb/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210610183934.jpg" class=""><img src="/xdkd-news/2020/11/29/2020xdkdtyb/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210610183957.jpg" class=""><img src="/xdkd-news/2020/11/29/2020xdkdtyb/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210610184014.jpg" class=""><h3 id="优秀奖：《艺生——原创艺术品交易服务平台》"><a href="#优秀奖：《艺生——原创艺术品交易服务平台》" class="headerlink" title="优秀奖：《艺生——原创艺术品交易服务平台》"></a>优秀奖：《艺生——原创艺术品交易服务平台》</h3><p>负责人：刘溢满</p><img src="/xdkd-news/2020/11/29/2020xdkdtyb/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210610184102.jpg" class=""><img src="/xdkd-news/2020/11/29/2020xdkdtyb/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210610184121.jpg" class=""><h2 id="心得小结"><a href="#心得小结" class="headerlink" title="心得小结"></a>心得小结</h2><hr><p>一路走来保持初心，知足且坚定，温柔且上进，所有荣誉皆为过往，感恩一路经历！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 新闻动态 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 天印杯 </tag>
+            
+            <tag> 水智蓝 </tag>
+            
+            <tag> 逸泊 </tag>
+            
+            <tag> 诺克 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>“梧桐林杯”江宁区第五届青年大学生创业大赛公告</title>
+      <link href="/xdkd-news/2020/11/21/2020wtlb01/"/>
+      <url>/xdkd-news/2020/11/21/2020wtlb01/</url>
+      
+        <content type="html"><![CDATA[<p>南京新鼎科德于”梧桐林杯”江宁区第五届青年大学生创业大赛中共有<strong>三个项目</strong>入围复赛!</p><hr><img src="/xdkd-news/2020/11/21/2020wtlb01/20210610165059.jpg" class="" title="入围比赛"><hr><h2 id="“梧桐林杯”简介"><a href="#“梧桐林杯”简介" class="headerlink" title="“梧桐林杯”简介"></a>“梧桐林杯”简介</h2><hr><p>“梧桐林杯”江宁区第五届青年大学生创业大赛，以深入贯彻市委”1号文“和创新名城建设精神为主题，鼓励并引导了青年大学生创新创业。</p><p>此创业大赛面向有创业意向或已在我区创业的全日制普通高校在校学生，及毕业五年内的青年大学生（包括港澳台地区和海外高校的留学生），分为报名、遴选、复赛与决赛四个阶段。</p><p>其参赛项目均需切实可行，具备一定的科技含量、产业开发价值或商业价值，产业化前景和成长潜力良好。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 新闻动态 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 梧桐林杯 </tag>
+            
+            <tag> 大学生创业 </tag>
+            
+            <tag> 大赛公告 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

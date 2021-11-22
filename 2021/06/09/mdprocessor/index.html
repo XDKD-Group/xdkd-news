@@ -1,0 +1,823 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="新闻中心Markdown处理程序使用教程, 南京；新鼎科德；新闻发布；水智蓝；">
+    <meta name="description" content="南京新鼎科德集团新闻发布官网">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>新闻中心Markdown处理程序使用教程 | 新闻中心</title>
+    <link rel="icon" type="image/png" href="/xdkd-news/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/xdkd-news/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/xdkd-news/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/xdkd-news/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/xdkd-news/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/xdkd-news/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/xdkd-news/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/xdkd-news/css/my.css">
+
+    <script src="/xdkd-news/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/xdkd-news/atom.xml" title="新闻中心" type="application/atom+xml">
+</head>
+
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/xdkd-news/" class="waves-effect waves-light">
+                    
+                    <img src="/xdkd-news/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">新闻中心</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/xdkd-news/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/xdkd-news/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/xdkd-news/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/xdkd-news/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/xdkd-news/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/xdkd-news/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">新闻中心</div>
+        <div class="logo-desc">
+            
+            南京新鼎科德集团新闻发布官网
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/xdkd-news/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/xdkd-news/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/xdkd-news/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/xdkd-news/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/xdkd-news/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+    
+<script src="/xdkd-news/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '97bf8df7793bbf2c29137fadbcf67f5e6aa2625fdf7be98ac831ac9ebbcfc66d';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/xdkd-news/';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/xdkd-news/2021/06/09/mdprocessor/sadadada.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">新闻中心Markdown处理程序使用教程</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="container content">
+
+    
+    <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/xdkd-news/tags/%E4%BF%A1%E6%81%AF%E5%8F%91%E5%B8%83/">
+                                <span class="chip bg-color">信息发布</span>
+                            </a>
+                        
+                            <a href="/xdkd-news/tags/%E8%BF%90%E7%BB%B4%E6%95%99%E7%A8%8B/">
+                                <span class="chip bg-color">运维教程</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/xdkd-news/categories/%E6%96%B0%E9%BC%8E%E7%A7%91%E5%BE%B7%E5%85%AC%E5%91%8A/" class="post-category">
+                                新鼎科德公告
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2021-06-09
+                </div>
+                
+
+                
+
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/xdkd-news/libs/prism/prism.css">
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <blockquote>
+<p>这是一个方便处理新闻稿件的发送信息的处理程序🙋‍♀️，我们技术部把它称为新鼎科德新闻中心Markdown处理器！</p>
+</blockquote>
+<h2 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h2><hr>
+<ul>
+<li>简单易用，易于上手😃</li>
+<li>方便Markdown文章的导入与信息编辑😋</li>
+<li>方便<a target="_blank" rel="noopener" href="https://hexo.io/">HEXO</a>稿件信息标注😁</li>
+<li>免安装，直接使用😛</li>
+</ul>
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><hr>
+<p><strong>两个版本区别为一个只有一个可执行程序兼容性不高，一个一堆文件但是兼容性较高。</strong></p>
+<p>精简版下载：<a target="_blank" rel="noopener" href="https://gitee.com/Jimmy_Liang/XDKD-mdprocessor/attach_files/732467/download/mdProcessor_Windows_x64_single.zip">mdProcessor_Windows_x64_single.zip</a></p>
+<p>完整版下载：<a target="_blank" rel="noopener" href="https://gitee.com/Jimmy_Liang/XDKD-mdprocessor/attach_files/732468/download/mdProcessor_Windows_x64_full.zip">mdProcessor_Windows_x64_full.zip</a></p>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><hr>
+<p>首先确保你的操作系统为<strong>Windows 64位</strong>操作系统，下载程序后双击运行图标即可打开程序，程序界面如图1所示。</p>
+<img src="/xdkd-news/2021/06/09/mdprocessor/1554981.jpg" class="" title="图1 程序界面">
+
+<p>在没有导入文件时，软件的输入与处理按钮均处于不可操作状态。通过<code>浏览</code>选中<strong>Markdown文稿所在的目录</strong>，目录结构必须满足如图2所示的结构。若Markdown文稿中已经包含了相关的配置信息，则程序将会自动加载这些信息。</p>
+<img src="/xdkd-news/2021/06/09/mdprocessor/20210609181752.jpg" class="" title="图2 目录文件结构">
+
+<p>填写信息中，以下选项为必填项：</p>
+<ul>
+<li><strong>新闻标题</strong>：用于网页显示标题之用；</li>
+<li><strong>发布者</strong>：用于记录发布者信息；默认发布者为<strong>新闻中心</strong>、<strong>技术部</strong>、<strong>竞赛部</strong>以及<strong>发展部</strong>，若非特殊情况尽量选择默认发布者；</li>
+<li><strong>文章封面图</strong>：用于文章封面的显示，选中本地图片文件后，程序将自动进行打包；</li>
+<li><strong>分类设置</strong>：用于消息的分类；默认分类为<strong>全体公告</strong>、<strong>新鼎科德公告</strong>、<strong>水智蓝公告</strong>、<strong>恩科公告</strong>、<strong>新闻动态</strong>与<strong>日常发布</strong>，除特殊情况下尽量选择默认分类进行发布；</li>
+<li><strong>标签</strong>：用于消息的标注，在填写信息时使用<strong>单个空格（Space）</strong>进行区分；</li>
+<li><strong>新闻摘要</strong>：用于概括新闻内容。</li>
+</ul>
+<p>以下选项为选填项：</p>
+<ul>
+<li><strong>是否置顶新闻</strong>：非常重要信息例如全体公告等消息应选择置顶新闻进行发布，其他消息由管理人员内部讨论决定；</li>
+<li><strong>是否加入首页轮播</strong>：重要信息需要加入首页轮播，有管理人员内部讨论决定；<strong>轮播消息不能大于6个</strong>！</li>
+<li><strong>轮播图设置</strong>：在选中<code>加入首页轮播图</code>检查框后才可进行操作，用于轮播图像显示，选中本地图片文件后，程序将自动进行打包；</li>
+<li><strong>加密密码</strong>：在信息只能部分相关人员可见的情况下，应添加加密密码；加密密码采用<code>SHA256</code>进行单向加密，因此<strong>不可找回</strong>，请谨慎设置；</li>
+<li><strong>开启TOC</strong>：通常不选择该选项；</li>
+<li><strong>开启数学公式</strong>：若文稿中包含数学公式，则需要选中此检查框，公式格式应为<strong>Mathjax</strong>，可用<a target="_blank" rel="noopener" href="https://www.mathtype.cn/">MathType</a>等软件进行设置。</li>
+</ul>
+<p>在设置好有关信息后，点击<code>处理MarkDown</code>按钮进行处理，最终处理结果如图3所示。</p>
+<img src="/xdkd-news/2021/06/09/mdprocessor/20210609182236.jpg" class="" title="图3 处理结果">
+
+<p>处理完成后仅需要向服务器递交文件夹“mdprocessor_use”与文稿“mdprocessor_use.md”，文件<code>.save</code>用于保存之前未处理过的Markdown文稿。</p>
+<h2 id="开源与许可"><a href="#开源与许可" class="headerlink" title="开源与许可"></a>开源与许可</h2><hr>
+<p>本程序开源采用<a target="_blank" rel="noopener" href="https://gitee.com/Jimmy_Liang/XDKD-mdprocessor/blob/master/LICENSE">GPL-2.0</a>开源许可协议。</p>
+<p>开源地址为：<a target="_blank" rel="noopener" href="https://gitee.com/Jimmy_Liang/XDKD-mdprocessor">https://gitee.com/Jimmy_Liang/XDKD-mdprocessor</a></p>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/xdkd-news/about" rel="external nofollow noreferrer">技术部</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://www.xdkd.ltd/xdkd-news/xdkd-news/2021/06/09/mdprocessor/">https://www.xdkd.ltd/xdkd-news/xdkd-news/2021/06/09/mdprocessor/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本新闻中心所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/xdkd-news/about" target="_blank">技术部</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/xdkd-news/tags/%E4%BF%A1%E6%81%AF%E5%8F%91%E5%B8%83/">
+                                    <span class="chip bg-color">信息发布</span>
+                                </a>
+                            
+                                <a href="/xdkd-news/tags/%E8%BF%90%E7%BB%B4%E6%95%99%E7%A8%8B/">
+                                    <span class="chip bg-color">运维教程</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/xdkd-news/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/xdkd-news/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/xdkd-news/2021/06/09/mdprocessor/">
+                    <div class="card-image">
+                        
+                        <img src="/xdkd-news/2021/06/09/mdprocessor/sadadada.jpg" class="responsive-img" alt="新闻中心Markdown处理程序使用教程">
+                        
+                        <span class="card-title">新闻中心Markdown处理程序使用教程</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            新闻中心Markdown文稿发布处理工具教程，属于内部资料，限部分成员查看。
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-09
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/xdkd-news/categories/%E6%96%B0%E9%BC%8E%E7%A7%91%E5%BE%B7%E5%85%AC%E5%91%8A/" class="post-category">
+                                    新鼎科德公告
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/xdkd-news/tags/%E4%BF%A1%E6%81%AF%E5%8F%91%E5%B8%83/">
+                        <span class="chip bg-color">信息发布</span>
+                    </a>
+                    
+                    <a href="/xdkd-news/tags/%E8%BF%90%E7%BB%B4%E6%95%99%E7%A8%8B/">
+                        <span class="chip bg-color">运维教程</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/xdkd-news/2021/06/07/news1/">
+                    <div class="card-image">
+                        
+                        <img src="/xdkd-news/2021/06/07/news1/15847.jpg" class="responsive-img" alt="新鼎科德集团新闻中心现已开通！">
+                        
+                        <span class="card-title">新鼎科德集团新闻中心现已开通！</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            新鼎科德集团新闻中心于2021年6月7日开通，本网站将发布集团的相关动态与事件，进行及时信息的发布，调节公众关系等相关职能
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-07
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/xdkd-news/categories/%E5%85%A8%E4%BD%93%E5%85%AC%E5%91%8A/" class="post-category">
+                                    全体公告
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/xdkd-news/tags/%E5%85%B3%E4%BA%8E%E7%AB%99%E7%82%B9/">
+                        <span class="chip bg-color">关于站点</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/xdkd-news/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/xdkd-news/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/xdkd-news/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/xdkd-news/libs/codeBlock/codeShrink.js"></script>
+
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2021</span>
+            
+            <span id="year">2021</span>
+            <a href="/xdkd-news/about" target="_blank">新闻宣传部</a>
+            |&nbsp;Powered by&nbsp;<a href="https://www.xdkd.ltd/" target="_blank">XDKD</a>
+            |&nbsp;Admin&nbsp;<a href="https://gitee.com/Jimmy_Liang" target="_blank">Jimmy Liang</a>
+            <br>
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <br>
+            
+            <span id="icp"><img src="/xdkd-news/medias/icp.png" style="vertical-align: text-bottom;" />
+                <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2020055013号-2</a>
+            </span>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+
+
+    <a href="mailto:846208455@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=846208455" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 846208455" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/xdkd-news/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/xdkd-news/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/xdkd-news/libs/materialize/materialize.min.js"></script>
+    <script src="/xdkd-news/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/xdkd-news/libs/aos/aos.js"></script>
+    <script src="/xdkd-news/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/xdkd-news/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/xdkd-news/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    
+    <script async src="/xdkd-news/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+	
+    
+
+    
+
+    
+
+    
+    <script src="/xdkd-news/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
